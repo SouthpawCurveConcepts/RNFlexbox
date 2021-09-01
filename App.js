@@ -1,13 +1,16 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { Flex } from "./src/features/mainview";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Flexbox testing!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Flex />
+
+    // <View style={styles.container}>
+    //   <Text>Flexbox testing!</Text>
+    //   <StatusBar style="auto" />
+    // </View>
   );
 }
 
